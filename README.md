@@ -105,7 +105,21 @@ def generate_codepic(pixel_array, codebook, levels=16):
 
 ```
 
-## 4. Philosophy
+## 4. Density Calibration
+
+**The Calibration Logic:**
+
+* To categorize a character into a grayscale level $L$, we use the **Black Pixel Ratio (BPR)**:
+
+$$BPR = \frac{\sum \text{Black Pixels}}{\text{Total Pixels in Grid}}$$
+
+**Instructions for Contributors:**
+
+* Render the character in a standard font (e.g., Source Han Sans).
+* Calculate the $BPR$. 
+* Assign the character to the lexicon level  $i$ where $i = \lfloor BPR \times \text{Total Levels} \rfloor$.
+
+## 5. Philosophy
 
 **Codepic.art** explores image representation through the lens of Information Theory and Semantic Art. By treating characters as physical density tokens, it achieves extreme visual compression (approx. 0.1 bpp) while retaining high-fidelity human features through semantic compensation.
 
