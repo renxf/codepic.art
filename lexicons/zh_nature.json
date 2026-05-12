@@ -1,0 +1,18 @@
+{
+  "lexicon_id": "zh_nature_v1",
+  "levels": 12,
+  "codebook": [
+    {"level": 0, "chars": ["攀", "巍", "麓"]},
+    {"level": 1, "chars": ["峰", "岭", "峻"]},
+    {"level": 2, "chars": ["松", "翠", "岩"]},
+    {"level": 3, "chars": ["幽", "兰", "谷"]},
+    {"level": 4, "chars": ["草", "木", "石"]},
+    {"level": 5, "chars": ["水", "溪", "泉"]},
+    {"level": 6, "chars": ["云", "雾", "霞"]},
+    {"level": 7, "chars": ["月", "星", "光"]},
+    {"level": 8, "chars": ["风", "雨", "露"]},
+    {"level": 9, "chars": ["。", "、", "·"]},
+    {"level": 10, "chars": [" "]},
+    {"level": 11, "chars": ["　"]}
+  ]
+}
